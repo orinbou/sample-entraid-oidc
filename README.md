@@ -14,11 +14,17 @@
 
 1.  [Azure ポータル](https://portal.azure.com/)にアクセスし、「Microsoft Entra ID」を選択します。
 2.  「アプリの登録」→「新規登録」をクリックします。
-3.  名前を入力し（例: `oidc-sample-spa`）、サポートされているアカウントの種類を選択します。
+3.  名前を入力し（例: `web-app-sample`）、サポートされているアカウントの種類を選択します。
 4.  「登録」をクリック後、左メニューの「認証」を選択します。
 5.  「プラットフォームを追加」→「シングルページ アプリケーション (SPA)」をクリックします。
 6.  リダイレクト URI に `http://localhost:5173` を入力し、「構成」をクリックします。
-7.  （オプション）ログアウト後のリダイレクト先を試す場合は、フロントチャネルのログアウト URL にも同様の値を設定することを検討してください。
+  * ※）参考として、以下にアプリ登録の例を掲載しておきます。
+    ![alt text](images/image00.png)
+    ![alt text](images/image01.png)
+    ![alt text](images/image02.png)
+    ![alt text](images/image03.png)
+    ![alt text](images/image04.png)
+    ![alt text](images/image05.png)
 
 ### 2. 環境変数の設定
 
@@ -62,3 +68,5 @@ npm run dev:sample2
 
 - **ライブラリ**: `react-oidc-context` ( `oidc-client-ts` の React ラッパー)
 - **認証フロー**: Authorization Code Flow with PKCE (SPA で推奨されるフロー)
+
+## 技術情報
