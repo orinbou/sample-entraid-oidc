@@ -20,10 +20,15 @@
 6.  リダイレクト URI に `http://localhost:5173` を入力し、「構成」をクリックします。
   * ※）参考として、以下にアプリ登録の例を掲載しておきます。
     ![alt text](images/image00.png)
+
     ![alt text](images/image01.png)
+
     ![alt text](images/image02.png)
+
     ![alt text](images/image03.png)
+
     ![alt text](images/image04.png)
+    
     ![alt text](images/image05.png)
 
 ### 2. 環境変数の設定
