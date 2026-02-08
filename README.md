@@ -18,25 +18,26 @@
 4.  「登録」をクリック後、左メニューの「認証」を選択します。
 5.  「プラットフォームを追加」→「シングルページ アプリケーション (SPA)」をクリックします。
 6.  リダイレクト URI に `http://localhost:5173` を入力し、「構成」をクリックします。
-  * ※）参考として、アプリ登録の設定例を以下に掲載しておきます。
 
-    * 概要
-    ![alt text](images/image00.png)
+#### （参考）アプリ登録の設定例を以下に掲載しておきます。
 
-    * 管理 -> Authentication (Preview)：リダイレクトURIの構成
-    ![alt text](images/image01.png)
+* 概要
+![alt text](images/image00.png)
 
-    * 管理 -> Authentication (Preview)：設定
-    ![alt text](images/image02.png)
+* 管理 -> Authentication (Preview)：リダイレクトURIの構成
+![alt text](images/image01.png)
 
-    * 管理 -> API のアクセス許可
-    ![alt text](images/image03.png)
+* 管理 -> Authentication (Preview)：設定
+![alt text](images/image02.png)
 
-    * 管理 -> API の公開
-    ![alt text](images/image04.png)
+* 管理 -> API のアクセス許可
+![alt text](images/image03.png)
 
-    * セキュリティ -> アクセス許可　※これは「エンタープライズ アプリケーション」の設定です
-      ![alt text](images/image05.png)
+* 管理 -> API の公開
+![alt text](images/image04.png)
+
+* セキュリティ -> アクセス許可　※これは「エンタープライズ アプリケーション」の設定です
+![alt text](images/image05.png)
 
 ### 2. 環境変数の設定
 
