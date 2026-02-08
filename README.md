@@ -70,6 +70,8 @@ npm run dev:sample2
 
 起動後、 `http://localhost:5173` にアクセスしてください。
 
+![alt text](images/image06.png)
+
 ## 使い方
 
 1.  **Log in**: クリックすると Entra ID のサインイン画面にリダイレクトされます。
