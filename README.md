@@ -81,5 +81,3 @@ npm run dev:sample2
 
 - **ライブラリ**: `react-oidc-context` ( `oidc-client-ts` の React ラッパー)
 - **認証フロー**: Authorization Code Flow with PKCE (SPA で推奨されるフロー)
-
-## 技術情報
